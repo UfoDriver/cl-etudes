@@ -1,8 +1,8 @@
-(defpackage :life
+(defpackage :cl-etudes.life
   (:use :common-lisp)
   (:export :run))
 
-(in-package :life)
+(in-package :cl-etudes.life)
 
 (defparameter *field* nil)
 (defparameter *width* 30)
